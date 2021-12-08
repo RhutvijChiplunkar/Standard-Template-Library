@@ -4,12 +4,6 @@
 //============================================================================
 
 #include <iostream>
-#include<string>//============================================================================
-// Name        : String class C++.cpp
-// Author      : Rhutvij Chiplunkar
-//============================================================================
-
-#include <iostream>
 #include<string>
 #include<algorithm>
 using namespace std;

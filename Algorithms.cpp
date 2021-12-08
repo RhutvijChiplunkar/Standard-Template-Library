@@ -10,7 +10,7 @@ using namespace std;
 
 int main() {
 	/*STL provide different types of algorithms that can be implemented upon any of the container with the help of iterators.
-	  Thus now we don’t have to define complex algorithm instead we just use the built in functions provided by the algorithm library in STL.
+	  Thus now we don't have to define complex algorithm instead we just use the built in functions provided by the algorithm library in STL.
 	  Algorithm functions provided by algorithm library works on the iterators, not on the containers.
  	  Thus one algorithm function can be used on any type of container.
  	  A range is any sequence of objects that can be accessed through iterators or pointers*/

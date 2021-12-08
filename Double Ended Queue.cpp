@@ -11,8 +11,8 @@ using namespace std;
 int main() {
 
 	/*	Double ended queues are sequence containers with the feature of expansion and contraction on both the ends.
-		They are similar to vectors, but are more efficient in case of insertion and deletion of elements.
-	 */
+		They are similar to vectors, but are more efficient in case of insertion and deletion of elements.*/
+	 
 	//declaring methods
 	deque<int> dq;
 	int a[]={1,2,3,4,5};

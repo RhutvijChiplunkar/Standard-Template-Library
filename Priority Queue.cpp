@@ -48,9 +48,6 @@ int main() {
 	}
 	cout<<"\n----------"<<endl;
 
-
-
-
 	// C++ program to demonstrate min heap
 	priority_queue<int,vector<int>, greater<int>> min_pq;
 

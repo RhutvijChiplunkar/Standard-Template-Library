@@ -11,7 +11,9 @@ int main() {
 	/*Sets are a type of associative containers in which each element has to be unique, because the value of the element identifies it.
 	 * The value of the element cannot be modified once it is added to the set, though it is possible to remove and add the
 	 * modified value of that element.
-	 * The elements in set are always returned in sorted order*/
+	 
+	   The elements in set are always returned in sorted order*/
+	   
 	set<int> s;
 
 
@@ -37,7 +39,7 @@ int main() {
 	cout<<endl;
 	cout<<"----------"<<endl;
 
-	//count(const g) – Returns 1 or 0 based on the element ‘g’ is present in the set or not.
+	//count(const g) ï¿½ Returns 1 or 0 based on the element ï¿½gï¿½ is present in the set or not.
 	cout<<"count()"<<endl;
 	cout<<s.count(15)<<endl;
 	cout<<s.count(155)<<endl;
@@ -50,7 +52,7 @@ int main() {
 	cout<<s.max_size()<<endl;
 	cout<<"----------"<<endl;
 
-	//Returns an iterator to the element ‘g’ in the set if found, else returns the iterator to end.
+	//Returns an iterator to the element ï¿½gï¿½ in the set if found, else returns the iterator to end.
 	cout<<"find()"<<endl;
 	set<int>::iterator it;
 	it=s.find(25);
