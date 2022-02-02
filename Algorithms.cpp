@@ -3,7 +3,6 @@
 // Author      : Rhutvij Chiplunkar
 //============================================================================
 
-#include <iostream>
 #include<bits/stdc++.h>
 #include<algorithm>
 using namespace std;
@@ -78,6 +77,31 @@ int main() {
 	vector<int> ar2={1,2,3,4};
 	cout<<equal(ar1.begin(),ar1.end(),ar2.begin())<<endl;
 	cout<<"----------------"<<endl;
-
-
 }
+
+/*OUTPUT
+
+Maximum:10
+Minimum:5
+----------
+Sorted array::7 15 48 75 84 122 320 487 956 966 
+----------------
+is_sorted method
+1
+----------------
+Binary search::
+1
+1
+----------------
+Lower bound
+20
+25
+Upper bound
+25
+30
+----------------
+count of integer:2
+count of character in string:5
+1
+----------------
+*/
