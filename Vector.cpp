@@ -26,7 +26,7 @@ int main() {
 	cout<<endl;
 	cout<<"----------"<<endl;
 
-	//pop_back() – It is used to pop or remove elements from a vector from the back.
+	//pop_back() ï¿½ It is used to pop or remove elements from a vector from the back.
 	cout<<"pop_back()"<<endl;
 	for(int i=1;i<=4;i++){
 		v.pop_back();
@@ -51,7 +51,7 @@ int main() {
 	cout<<v.capacity()<<endl;
 	cout<<"----------"<<endl;
 
-	//insert() – It inserts new elements before the element at the specified position
+	//insert() ï¿½ It inserts new elements before the element at the specified position
 	//vector_name.insert (position, val) or vector_name.insert(position, count, val)
 	cout<<"insert()"<<endl;
 	v.insert(v.begin(),0);
@@ -91,6 +91,15 @@ int main() {
 	cout<<endl;
 	cout<<"----------"<<endl;
 
+	vector<int> v_rep={1,2,3,1,4,5,1};
+	
+	//This function replaces all the occurences of a particular element
+	replace(v_rep.begin(), v_rep.end(), 1, 10);  
+
+	cout<<"After replacement function"<<endl;
+	for(auto i:v_rep){
+		cout<<i<<" ";
+	}
 }
 
 /* OUTPUT
@@ -119,5 +128,6 @@ After clear()
 at() function
 0 1 2 3 4 5
 ----------
-
+After replacement function
+10 2 3 10 4 5 10
 */
